@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:darkgrey;
+}
+.products{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.products a{
+    display: block;
+    color:dimgrey;
+   float: center;
+   margin-bottom: 20px;
+}
+.product{
+    width:30%;
+    background-color:azure;
+
+}
+.product img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.product:hover
+{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .5);
+}
+.product h2{
+    color:dimgrey;
+    font-style: oblique;
+   margin-bottom: 30px;
+}
